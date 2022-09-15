@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Canva';
+    src: url(font/FontsFree-Net-GelatoScript.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    z-index: 2;
+}
+
+header {
+    background-image: url(imgs/image1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(93%);
+    height: 600px;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+}
+
+.containerh {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-left: 80px;
+    margin-left: 50px;
+    padding-top: 70px;
+    width: 45%;
+}
+
+.containerh * {
+    line-height: 40px;
+}
+
+.containerh p {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.containerh p,
+.containerh h3 {
+    text-transform: uppercase;
+}
+
+.containerh button {
+    min-width: 35%;
+    max-width: 50%;
+    background-color: #15306F;
+    border-radius: 20px;
+    border: none;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.item1_1 {
+    width: 400px;
+    height: 420px;
+    background-image: url(imgs/ble.jpg);
+    background-size: cover;
+}
+
+.item1_2 {
+    width: 50%;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.item1_2 p {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    line-height: 20px;
+}
+
+
+.item1_2 button {
+    background-color: #180A9E;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.supercontainer1 {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.container2 {
+    margin-left: 45px;
+}
+
+.container2 h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.container2 p {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.item3_1,
+.item3_2,
+.item3_3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    min-height: 200px;
+    max-height: 500px;
+}
+
+.serie {
+    color: rgba(170, 169, 169, 0.411);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+
+}
+
+.container3 p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(15, 15, 15, 0.829);
+    font-size: 14px;
+}
+
+.supercontainer2 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+}
+
+.supercontainer2 h2 {
+    text-align: center;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.item5_1,
+.item5_2,
+.item5_3 {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+
+.item5_1 {
+    background-image: url(imgs/image3.webp);
+    background-size: cover;
+}
+
+.item5_1:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 400px 400px rgba(14, 218, 106, 0.6)
+}
+
+
+.item5_2 {
+    background-image: url(imgs/image5.webp);
+    background-size: cover;
+}
+
+.item5_2:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 400px 400px rgba(218, 21, 14, 0.6)
+}
+
+.item5_3 {
+    background-image: url(imgs/image7.webp);
+    background-size: cover;
+}
+
+.item5_3:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 400px 400px rgba(14, 34, 218, 0.432)
+}
+
+.container5 h5,
+.container5 p {
+    font-family: 'Roboto Condensed';
+    color: white;
+    opacity: 85%;
+}
+
+.container5 p {
+    text-transform: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.texte {
+    padding-top: 92%;
+    padding-left: 20%;
+}
+
+.supercontainer3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container6 {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container6 h4 {
+    font-size: 25px;
+    font-family: 'Roboto Condensed';
+    margin-top: 15px;
+}
+
+.container7 {
+    width: 500px;
+    height: 600px;
+    background-image: url(imgs/image2.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container7 h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container7 button {
+    background-color: #180A9E;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+.containerf {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.containerf a {
+    text-transform: none;
+}
+
+.containerf button {
+    background-color: rgba(56, 53, 53, 0.849);
+    padding: 6px;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform: scale(1.5);
+    background-color: rgb(134, 7, 160);
+    transition-duration: 1.2s;
+}
+
+
+span {
+    font-family: 'Canva';
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.containerf button:hover {
+    transform: rotate(360deg);
+    -o-transform: scale(1.1);
+}
+
+
+@media screen and (max-width : 600px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    .containerh {
+        width: 100%;
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .container1 {
+        justify-content: center;
+    }
+
+    .item1_1 {
+        width: 100vh;
+    }
+
+
+    h3 {
+        font-size: 10px;
+    }
+
+    .item5_1,
+    .item5_2,
+    .item5_3 {
+        width: 100vh;
+    }
+
+    .texte {
+        padding-top: 70%;
+        padding-left: 20%;
+        font-size: 16px;
+    }
+
+}
